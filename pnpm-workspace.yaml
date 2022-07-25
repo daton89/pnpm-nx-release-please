@@ -1,0 +1,6 @@
+# pnpm-workspace.yaml
+packages:
+  # executable/launchable applications
+  - "apps/*"
+  # all libs in subdirs of libs/ and components/
+  - "libs/*"

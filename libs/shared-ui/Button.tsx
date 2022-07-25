@@ -8,7 +8,7 @@ export function Button(props: {
     <button
       onClick={() => {
         alert("clicked");
-        props?.onClick();
+        props.onClick?.();
       }}
     >
       {props.children}
